@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Froms 1 to 4</title>
+</head>
+
+<body>
+    <form action="data_collection.html">
+        <div>
+            <label for="name">Enter the Buyers name: </label>
+            <input type="text" id="name" name="customer_name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date: </label>
+            <input type="date" name="date" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="amount">Amount: </label>
+            <input type="number" name="amount" id="amount">
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="button">Add as New</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <br><br><br>
+    <form action="data_collection.html">
+        <table>
+            <tr>
+                <td><label for="visitor_name">Visitor's Full Name: </label></td>
+                <td><input type="text" id="visitor_name" name="visitor_name"></td>
+            </tr>
+            <tr>
+                <td><label for="visitor_email">Visitor Email: </label></td>
+                <td><input type="email" name="visitor_email" id="visitor_email"></td>
+            </tr>
+            <tr>
+                <td><label for="appointment_date">Date: </label></td>
+                <td><input type="date" name="appointment_date" id="appointment_date"></td>
+            </tr>
+            <tr>
+                <td><label for="contact">Contact No: </label></td>
+                <td><input type="number" name="contact" id="contact"></td>
+            </tr>
+        </table>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="button">Check Schedule</button>
+            <button type="reset" id="appointment_date">Reset date</button>
+        </div>
+    </form>
+    <br><br><br>
+    <form action="data_collection.html">
+        <table>
+            <tr>
+                <td><label for="product_name">Product Name: </label></td>
+                <td><input type="text" id="product_name" name="product_name"></td>
+            </tr>
+            <tr>
+                <td><label for="buyers_email">Email: </label></td>
+                <td><input type="email" name="buyers_email" id="buyers_email"></td>
+            </tr>
+            <tr>
+                <td><label for="quantity">Count: </label></td>
+                <td><input type="number" name="quantity" id="quantity"></td>
+            </tr>
+            <tr>
+                <td><label for="delivery_date">Preferred Date for Delivery: </label></td>
+                <td><input type="date" name="delivery_date" id="delivery_date"></td>
+            </tr>
+        </table>
+        <br>
+        <div>
+            <button type="submit">Confirm Order</button>
+            <button type="button">Compare Similar Products</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
